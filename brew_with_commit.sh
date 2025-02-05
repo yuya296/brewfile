@@ -4,7 +4,7 @@ GIT_DIR=~/dev/brewfile
 BREWFILE=$GIT_DIR/Brewfile
 
 # 差分が発生するbrewコマンドのリスト
-DIFF_COMMANDS=("install" "uninstall" "upgrade" "update" "tap" "untap")
+DIFF_COMMANDS=("install" "uninstall" "reinstall" "upgrade" "update" "tap" "untap")
 
 # Brewコマンドの実行
 brew "$@"
