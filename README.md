@@ -19,5 +19,11 @@ git init
 brew bundle dump --file=./Brewfile --force
 ```
 
+3. zshrcに以下を追記する
+※ パスは適宜変更してください
+
+```bash
+alias brew='~/dev/brewfile/brew_with_commit.sh'
+```
 
 
