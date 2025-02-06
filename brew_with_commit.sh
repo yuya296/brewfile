@@ -6,6 +6,8 @@ BREWFILE=$GIT_DIR/Brewfile
 # 差分が発生するbrewコマンドのリスト
 DIFF_COMMANDS=("install" "uninstall" "reinstall" "upgrade" "update" "tap" "untap")
 
+echo "Running brew $* with brewfile commit..."
+
 # Brewコマンドの実行
 brew "$@"
 
